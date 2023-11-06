@@ -85,7 +85,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://img.peterli.club/img/8f23d0adaf83fd2aefae793948b0bc3a.jpeg
+index_img: imgs/baseline/background.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://img.peterli.club/img/8f23d0adaf83fd2aefae793948b0bc3a.jpeg
@@ -631,7 +631,7 @@ aside:
       link: https://github.com/lealaxy
   card_announcement:
     enable: true
-    content: 刚入门炼丹，正在努力炼出一炉好丹药。
+    content: 炼丹中，日常炸炉子。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
