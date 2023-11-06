@@ -74,11 +74,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://img.peterli.club/img/profile.png
+favicon: imgs/author.jpg
 
 # Avatar (頭像)
 avatar:
-  img: https://img.peterli.club/img/profile.png
+  img: imgs/author.jpg
   effect: false
 
 # Disable all banner image

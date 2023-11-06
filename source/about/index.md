@@ -1,6 +1,6 @@
 ---
 title: 关于
-date: 2022-04-28 12:06:14
+date: 2023-11-06 19:25:14
 type: "about"
 ---
 
@@ -8,15 +8,15 @@ type: "about"
 
 人工智能研究生
 
-本科做过机器视觉（但是感觉啥都没学到
+计算机视觉，医疗图像分割
 
-现在正在努力研究机器视觉
+每天都在生死编边缘挣扎
 
-# 请我喝茶
+# 请我喝奶茶
 
 <table>
     <tr>
-        <td ><center><img src="https://img.peterli.club/img/8FC3CDE76EB8FD1121E07ED7CAD74920.png" width="512" height="512" ></br>微信</center></td>
-        <td ><center><img src="https://img.peterli.club/img/F0F5202DB814596F2DDF6EE9FF640ACB.jpg" width="512" height="512" ></br>支付宝</center></td>
+        <td ><center><img src="imgs/wechet.jpg" width="512" height="512" ></br>微信</center></td>
+        <td ><center><img src="imgs/easychat.jpg" width="512" height="512" ></br>支付宝</center></td>
     </tr>
 </table>
