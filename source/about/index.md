@@ -16,7 +16,7 @@ type: "about"
 
 <table>
     <tr>
-        <td ><center><img src="/imgs/wechet.jpg" width="512" height="512" ></br>微信</center></td>
-        <td ><center><img src="/imgs/easychat.jpg" width="512" height="512" ></br>支付宝</center></td>
+        <td ><center><img src="/imgs/baseline/wechet.jpg" width="512" height="512" ></br>微信</center></td>
+        <td ><center><img src="/imgs/baseline/easychat.jpg" width="512" height="512" ></br>支付宝</center></td>
     </tr>
 </table>

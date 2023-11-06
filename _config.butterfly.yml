@@ -74,11 +74,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: imgs/author.jpg
+favicon: imgs/baseline/author.jpg
 
 # Avatar (頭像)
 avatar:
-  img: imgs/author.jpg
+  img: imgs/baseline/author.jpg
   effect: false
 
 # Disable all banner image
