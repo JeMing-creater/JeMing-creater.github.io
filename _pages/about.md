@@ -28,7 +28,7 @@ My research interests are primarily focused on medical image processing and biom
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2023</div><img src='images/SlimUNETR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge", color=#FF0000>TMI 2023</div><img src='images/SlimUNETR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Slim UNETR: Scale Hybrid Transformers to Efficient 3D Medical Image Segmentation Under Limited Computational Resources](https://ieeexplore.ieee.org/abstract/document/10288609/)
@@ -40,7 +40,6 @@ Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 📖 Educations
 - *2021.09 - 2024.06*, Guangzhou University, Master of Computer Science. 
