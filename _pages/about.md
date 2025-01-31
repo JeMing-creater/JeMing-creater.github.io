@@ -28,14 +28,15 @@ My research interests are primarily focused on medical image processing and biom
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image' style="background-color: red;"><div><div class="badge">TMI 2023</div><img src='images/SlimUNETR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2023</div><img src='images/SlimUNETR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Slim UNETR: Scale Hybrid Transformers to Efficient 3D Medical Image Segmentation Under Limited Computational Resources](https://ieeexplore.ieee.org/abstract/document/10288609/)
 
 Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Hao Chen, Yunhao Li, Dan Li, Lin Huang, Qiong Wang\*
 
-[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**Journal (JCR Q1, IF 8.9)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - SlimUNETR is a lightweight 3D medical image segmentation model that achieves state-of-the-art performance on the BraTS2021 and other 3D lesion segmentation datasets, while also seeing a significant reduction in the number of parameters and floating-point computations. 
 </div>
 </div>
