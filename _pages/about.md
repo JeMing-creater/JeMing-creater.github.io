@@ -41,6 +41,17 @@ My research interests are primarily focused on medical image processing and biom
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='images/LMS-GAT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Lightweight Multispectral Skeleton and Multi-stream Graph Attention Networks for Enhanced Action Prediction with Multiple Modalities](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_6)
+
+Teng Huang\*, Weiqing Kong, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Ziyu Ding, Hui Li, Xi Zhang\*
+[**Conference paper**](https://cvpr.thecvf.com/Conferences/2024)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- LMS-GAT introduces a novel approach to human action recognition by facilitating information exchange through node concentration and diffusion across structural and temporal dimensions, selectively suppressing and reinstating structural node representations for specific actions ,and utilizing hierarchical shifted temporal windows to assess temporal information. This method effectively addresses dynamic changes during action transitions, outperforming state-of-the-art methods in prediction accuracy on the NTU RGB+D 60 and 120 datasets, thus highlighting its improved efficacy in capturing and recognizing human actions.
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2024</div><img src='images/AdaptFormer.png' alt="sym" width="100%"></div></div>
