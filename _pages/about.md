@@ -17,7 +17,7 @@ redirect_from:
 
 # 😊 About Me
 <span class='anchor' id='about-me'></span>
-I am Jiaming Liang. I am currently working as a research assistant at SCUT and will further my studies here as a first-year PhD student under the supervision of <a href='https://www2.scut.edu.cn/ft/2023/1201/c29779a527919/page.htm'> Prof. Hongmin Cai </a>. Before this, I completed my Master’s degree at Guangzhou University, where I had the honor of being mentored by <a href='https://people.ucas.ac.cn/~0058478'> Prof. Wang Qiong </a> and <a href='https://pangyan.me'> Assoc. Prof. Pang Yan </a> 
+I am Jiaming Liang. I am currently working as a research assistant at SCUT and will further my studies here as a first-year PhD student under the supervision of <a href='https://www2.scut.edu.cn/ft/2023/1201/c29779a527919/page.htm'> Prof. Hongmin Cai </a>. Before this, I completed my Master’s degree at Guangzhou University, and I had the honor of being mentored by <a href='https://people.ucas.ac.cn/~0058478'> Prof. Wang Qiong </a> and <a href='https://pangyan.me'> Assoc. Prof. Pang Yan </a> 
 
 My research interests are primarily focused on medical image processing and biomedical computing.
 
