@@ -121,7 +121,7 @@ Bo Wei, Teng Huang\*, Xi Zhang,  <a href='https://jeming-creater.github.io/'><st
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2022</div><img src='images/Cam.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2022</div><img src='images/MTL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MTL-Leak: Privacy Risk Assessment in Multi-Task Learning](https://ieeexplore.ieee.org/document/10050399)
