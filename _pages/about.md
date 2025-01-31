@@ -68,7 +68,7 @@ Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><st
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='images/LMS-GAT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2023</div><img src='images/AgileNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AgileNet: A Rapid and Efficient Breast Lesion Segmentation Method for Medical Image Analysis](https://link.springer.com/chapter/10.1007/978-981-99-8469-5_33)
