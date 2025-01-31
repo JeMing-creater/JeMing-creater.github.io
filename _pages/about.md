@@ -28,6 +28,36 @@ My research interests are primarily focused on medical image processing and biom
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='images/CTIN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Comprehensive Transformer Integration Network (CTIN): Advancing Endoscopic Disease Segmentation with Hybrid Transformer Architecture](https://link.springer.com/chapter/10.1007/978-981-97-8499-8_15)
+
+<a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Mingdu Zhang, Caiyan Tan, Teng Huang, Xi Zhang, Zheng Zhang\*, Shegan Gao, Qian Sheng\*, Yan Pang\*
+
+[**Conference paper**](https://cvpr.thecvf.com/Conferences/2024)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- CTIN, leveraging Transformer's strengths and introducing a Global Local Fusion Extractor module, enhances the precision of endoscopic image segmentation by preserving boundary details and accurately localizing objects, thus demonstrating superior performance and robustness in challenging scenarios. This approach addresses the limitations of existing models in capturing complex boundaries and small objects, achieving state-of-the-art results on various metrics. 
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2024</div><img src='images/AdaptFormer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AdaptFormer: An Adaptive Hierarchical Semantic Approach for Change Detection on Remote Sensing Images](https://ieeexplore.ieee.org/document/10497147)
+
+Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Jie Hong, Lin Huang, Yuan Zhang, Yan Jia, Patrizia Savi
+
+[**Project**](https://github.com/aigzhusmart/AdaptFormer) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>   [**Journal (JCR Q1, IF 5.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- AdaptFormer is designed to adaptively interpret hierarchical semantics in remote sensing change detection, employing tailored strategies across three semantic depths to enhance the identification of environmental changes, from straightforward operations for shallow semantics to cascaded depthwise attention for in-depth semantics. This approach enables AdaptFormer to surpass leading benchmarks, achieving exceptional F1 and IoU scores of 92.65% and 86.31% on the LEVIR-CD dataset, and 97.59% and 95.29% on the DSIFN-CD dataset, respectively. 
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2023</div><img src='images/SlimUNETR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
