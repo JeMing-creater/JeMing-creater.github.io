@@ -94,6 +94,45 @@ Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DDSP 2023</div><img src='images/GanNoise.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GanNoise: Defending against  black-box membership inference attacks by countering noise generation](https://ieeexplore.ieee.org/document/10405019)
+
+<a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Zidan Luo, Dan Li, Yunhao Li, Ziyu Ding
+[**Conference paper (EI)**](https://dspp2023.xidian.edu.cn/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- GanNoise is a novel training framework designed to preserve privacy in deep learning models by generating noise that adds randomness to private data during training, thereby preventing excessive memorization of the actual training data while maintaining classification accuracy. This approach effectively defends against membership inference attacks without compromising model performance, outperforming existing advanced MIA defense solutions in terms of efficiency across various datasets.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JST-AEORS 2023</div><img src='images/Cam.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cam-PC: A Novel Method for Camouflaging Point Clouds to Counter Adversarial Deception in Remote Sensing](https://ieeexplore.ieee.org/document/10285331)
+
+Bo Wei, Teng Huang\*, Xi Zhang,  <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Yunhao Li, Ziyu Ding, Cong Cao, Dan Li, Yongfeng Chen, Huagang Xiong, Feng Jiang, Xiqiu Zhang\*
+
+[**Journal (JCR Q2, IF 4.7)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This article explores the increased privacy risks associated with multi-task learning (MTL) compared to traditional single-task learning, through the design of model extraction attacks (MEA) and membership inference attacks (MIA) in MTL. Evaluations across six MTL model architectures and two popular MTL datasets reveal that both the number of tasks and the complexity of training data significantly influence attack performance, demonstrating that MTL is more vulnerable to these attacks than single-task learning. This highlights the need for enhanced privacy measures in MTL frameworks.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2022</div><img src='images/Cam.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MTL-Leak: Privacy Risk Assessment in Multi-Task Learning](https://ieeexplore.ieee.org/document/10050399)
+
+Hongyang Yan, Anli Yan, Li Hu,  <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Haibo Hu\*
+
+[**Journal (JCR Q2, IF 7.0)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- Multi-task learning (MTL) supports simultaneous training over multiple related tasks and learns the shared representation. While improving the generalization ability of training on a single task, MTL has higher privacy risk than traditional single-task learning because more sensitive information is extracted and learned in a correlated manner. Unfortunately, very few works have attempted to address the privacy risks posed by MTL. In this article, we first investigate such risk by designing model extraction attack (MEA) and membership inference attack (MIA) in MTL. Then we evaluate the privacy risks on six MTL model architectures and two popular MTL datasets, whose results show that both the number of tasks and the complexity of training data play an important role in the attack performance. Our investigation shows that MTL is more vulnerable than traditional single-task learning under both attacks.
+</div>
+</div>
 
 # 📖 Educations
 - *2021.09 - 2024.06*, Guangzhou University, Master of Computer Science. 
