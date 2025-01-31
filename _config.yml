@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiaming Liang"
-description              : ""
+description              : "Having to leave the tracks behind."
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiaming Liang"
   avatar           : "images/profile.png"
-  bio              : "I will be a first-year PhD student from SCUT, supervised by prof. Hongming Cai. Before that, I received the master degree from Guangzhou University."
+  bio              : "AI researcher."
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
