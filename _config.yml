@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiaming Liang"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : ""
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiaming Liang"
   avatar           : "images/profile.png"
-  bio              : "Jiaming Liang received the B.Eng. degree from the Foshan University, China, in 2021. He is currently working toward a master's degree at Guangzhou University, China. His research interests include computer vision, cryptography, and privacy in artificial intelligence."
+  bio              : "I will be a first-year PhD student from SCUT, supervised by prof. Hongming Cai. Before that, I received the master degree from Guangzhou University."
   location         : "Guangzhou, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/JeMing-creater"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0000-6007-9759"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
