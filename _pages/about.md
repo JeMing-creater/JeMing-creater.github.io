@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I am Jiaming Liang. I am currently working as a research assistant at SCUT and will further my studies here as a first-year PhD student under the supervision of <a href='https://www2.scut.edu.cn/ft/2023/1201/c29779a527919/page.htm'> Prof. Hongmin Cai <strong><span id='total_cit'>260000+</span></strong></a>. Before this, I completed my Master’s degree at Guangzhou University, where I had the honor of being mentored by <a href='https://people.ucas.ac.cn/~0058478'> Prof. Wang Qiong <strong><span id='total_cit'>260000+</span></strong></a> and <a href='https://pangyan.me'> Assoc. Prof. Pang Yan <strong><span id='total_cit'>260000+</span></strong></a> 
+I am Jiaming Liang. I am currently working as a research assistant at SCUT and will further my studies here as a first-year PhD student under the supervision of <a href='https://www2.scut.edu.cn/ft/2023/1201/c29779a527919/page.htm'> Prof. Hongmin Cai </a>. Before this, I completed my Master’s degree at Guangzhou University, where I had the honor of being mentored by <a href='https://people.ucas.ac.cn/~0058478'> Prof. Wang Qiong </a> and <a href='https://pangyan.me'> Assoc. Prof. Pang Yan </a> 
 
 My research interests are primarily focused on medical image processing and biomedical computing.
 
@@ -41,17 +41,7 @@ My research interests are primarily focused on medical image processing and biom
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09 - 2024.06*, Guangzhou University, Master of Computer Science. 
+- *2017.09 - 2021.06*, Foshan University, Bachelor of Computer Science. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
