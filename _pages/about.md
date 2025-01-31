@@ -33,7 +33,7 @@ My research interests are primarily focused on medical image processing and biom
 
 [Slim UNETR: Scale Hybrid Transformers to Efficient 3D Medical Image Segmentation Under Limited Computational Resources](https://ieeexplore.ieee.org/abstract/document/10288609/)
 
-Yan Pang (Adviser), <font color=#FF0000>**Jiaming Liang**</font>, Teng Huang\*, Hao Chen, Yunhao Li, Dan Li, Lin Huang, Qiong Wang\*
+Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Hao Chen, Yunhao Li, Dan Li, Lin Huang, Qiong Wang\*
 
 [**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - SlimUNETR is a lightweight 3D medical image segmentation model that achieves state-of-the-art performance on the BraTS2021 and other 3D lesion segmentation datasets, while also seeing a significant reduction in the number of parameters and floating-point computations. 
