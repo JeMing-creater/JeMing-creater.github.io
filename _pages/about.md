@@ -23,10 +23,38 @@ My research interests are primarily focused on medical image processing and biom
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.01.18*: &nbsp;🎉🎉 A paper (MOD) is accepted by IEEE Journal of Biomedicaland Health Informatics!
+- *2025.01.11*: &nbsp;🎉🎉 A paper (BaS) is accepted by IEEE Journal of Biomedicaland Health Informatics! 
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/MOD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+🎉New!!!🎉[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation]()
+
+Yan Pang, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Zhen Wang, Changyu Dong, Dongyang Kuang, Ying Hu, Hao Chen, Tim Lei, Qiong Wang\*
+
+[**Project**](https://github.com/aigzhusmart/MOD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 7.7)**](https://www.embs.org/jbhi/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- MOD is a plug-and-play component designed to enhance supervised learning models for brain tumor segmentation in data-scarce environments by integrating an Online Tokenizer and a Dense Predictor. These elements facilitate efficient representation learning through self-distillation and self-modeling on masked patches, promoting swift convergence. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/BaS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+🎉New!!!🎉[Efficient Breast Lesion Segmentation from Ultrasound Videos Across Multiple Source-limited Platforms]()
+
+Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Ziyu Ding, Hao Chen, Baoliang Zhao, Ying Hu, Zheng Zhang, Qiong Wang\*
+
+[**Project**](https://github.com/aigzhusmart/BaS) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 7.7)**](https://www.embs.org/jbhi/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- BaS is an innovative, on-device breast lesion segmentation model designed for medical videos, integrating Stem module and BaSBlock to refine representations through inter- and intra-frame analysis, thus balancing segmentation performance and inference speed. This model surpasses existing top-performing models in efficiency and prediction accuracy on resource-limited devices by offering two versions, BaS-S for enhanced segmentation accuracy and BaS-L for faster inference times. 
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2024</div><img src='images/CTIN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -47,6 +75,7 @@ My research interests are primarily focused on medical image processing and biom
 [Lightweight Multispectral Skeleton and Multi-stream Graph Attention Networks for Enhanced Action Prediction with Multiple Modalities](https://link.springer.com/chapter/10.1007/978-981-99-8429-9_6)
 
 Teng Huang\*, Weiqing Kong, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Ziyu Ding, Hui Li, Xi Zhang\*
+
 [**Conference paper (CCF-C)**](https://cvpr.thecvf.com/Conferences/2024)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - LMS-GAT introduces a novel approach to human action recognition by facilitating information exchange through node concentration and diffusion across structural and temporal dimensions, selectively suppressing and reinstating structural node representations for specific actions ,and utilizing hierarchical shifted temporal windows to assess temporal information. This method effectively addresses dynamic changes during action transitions, outperforming state-of-the-art methods in prediction accuracy on the NTU RGB+D 60 and 120 datasets, thus highlighting its improved efficacy in capturing and recognizing human actions.
@@ -61,7 +90,7 @@ Teng Huang\*, Weiqing Kong, <a href='https://jeming-creater.github.io/'><strong>
 
 Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Jie Hong, Lin Huang, Yuan Zhang, Yan Jia, Patrizia Savi
 
-[**Project**](https://github.com/aigzhusmart/AdaptFormer) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>   [**Journal (JCR Q1, IF 5.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/aigzhusmart/AdaptFormer) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 5.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - AdaptFormer is designed to adaptively interpret hierarchical semantics in remote sensing change detection, employing tailored strategies across three semantic depths to enhance the identification of environmental changes, from straightforward operations for shallow semantics to cascaded depthwise attention for in-depth semantics. This approach enables AdaptFormer to surpass leading benchmarks, achieving exceptional F1 and IoU scores of 92.65% and 86.31% on the LEVIR-CD dataset, and 97.59% and 95.29% on the DSIFN-CD dataset, respectively. 
 </div>
@@ -74,6 +103,7 @@ Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><st
 [AgileNet: A Rapid and Efficient Breast Lesion Segmentation Method for Medical Image Analysis](https://link.springer.com/chapter/10.1007/978-981-99-8469-5_33)
 
 <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Dan Li, Ziyu Ding, Yunhao Li, Lin Huang, Qiong Wang, Xi Zhang\*
+
 [**Conference paper (CCF-C)**](https://cvpr.thecvf.com/Conferences/2023)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - AgileNet is an efficient lesion segmentation model that balances accuracy and efficiency by combining the strengths of convolutional neural networks and transformers, utilizing an Agile block for cost-effective information exchange that incorporates both global and local contexts. Demonstrating superior performance in terms of accuracy, model size, and throughput on resource-constrained devices, AgileNet offers a promising solution for accurate and efficient medical image segmentation in such settings.
@@ -88,7 +118,7 @@ Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><st
 
 Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Hao Chen, Yunhao Li, Dan Li, Lin Huang, Qiong Wang\*
 
-[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>   [**Journal (JCR Q1, IF 10.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 10.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - SlimUNETR is a lightweight 3D medical image segmentation model that achieves state-of-the-art performance on the BraTS2021 and other 3D lesion segmentation datasets, while also seeing a significant reduction in the number of parameters and floating-point computations. 
 </div>
@@ -100,6 +130,7 @@ Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming 
 [GanNoise: Defending against  black-box membership inference attacks by countering noise generation](https://ieeexplore.ieee.org/document/10405019)
 
 <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Zidan Luo, Dan Li, Yunhao Li, Ziyu Ding
+
 [**Conference paper (EI)**](https://dspp2023.xidian.edu.cn/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - GanNoise is a novel training framework designed to preserve privacy in deep learning models by generating noise that adds randomness to private data during training, thereby preventing excessive memorization of the actual training data while maintaining classification accuracy. This approach effectively defends against membership inference attacks without compromising model performance, outperforming existing advanced MIA defense solutions in terms of efficiency across various datasets.
