@@ -33,7 +33,7 @@ My research interests are primarily focused on medical image processing and biom
 
 🎉New!!!🎉[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation]()
 
-Yan Pang, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Zhen Wang, Changyu Dong, Dongyang Kuang, Ying Hu, Hao Chen, Tim Lei, Qiong Wang\*
+Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Zhen Wang, Changyu Dong, Dongyang Kuang, Ying Hu, Hao Chen, Tim Lei, Qiong Wang\*
 
 [**Project**](https://github.com/aigzhusmart/MOD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 7.7)**](https://www.embs.org/jbhi/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
