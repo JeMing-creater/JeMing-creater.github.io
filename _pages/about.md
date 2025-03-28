@@ -165,7 +165,5 @@ Hongyang Yan, Anli Yan, Li Hu,  <a href='https://jeming-creater.github.io/'><str
 </div>
 </div>
 
-# 📖 Educations
-- *2021.09 - 2024.06*, Guangzhou University, Master of Computer Science. 
-- *2017.09 - 2021.06*, Foshan University, Bachelor of Computer Science. 
+
 
