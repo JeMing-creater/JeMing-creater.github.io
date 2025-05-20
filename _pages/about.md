@@ -23,15 +23,28 @@ My research interests are primarily focused on medical image analysis and biomed
 
 
 # 🔥 News
-- *2025.01.18*: &nbsp;🎉🎉 A paper (MOD) is accepted by IEEE Journal of Biomedicaland Health Informatics!
-- *2025.01.11*: &nbsp;🎉🎉 A paper (BaS) is accepted by IEEE Journal of Biomedicaland Health Informatics! 
+- *2025.05.13*: &nbsp;🎉🎉 A paper (HWA-UNETR) has been provisionally accepted for <a href='https://conferences.miccai.org/2025/en/default.asp'>MICCAI 2025</a>!
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/HWA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+🎉New!!!🎉[HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation]()
+
+<a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Lihuan Dai, Xiaoqi Sheng, Xiangguang Chen, Chun Yao, Guihua Tao, Qibin Leng, Hongmin Cai, Xi Zhong\*
+
+[**Project**](https://github.com/JeMing-creater/HWA-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; 
+[**Conference paper (CCF-B)**](https://conferences.miccai.org/2025/en/default.asp)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This work introduced the first multimodal MRI gastric tumor dataset GCM 2025, and its baseline model HWA-UNETR. This baseline model first proposed the tri-orientated fusion mamba mechanism to prioritize multimodal complex medical image analysis tasks.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/MOD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🎉New!!!🎉[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation]()
+[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation]()
 
 Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Zhen Wang, Changyu Dong, Dongyang Kuang, Ying Hu, Hao Chen, Tim Lei, Qiong Wang\*
 
@@ -45,7 +58,7 @@ Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/BaS.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🎉New!!!🎉[Efficient Breast Lesion Segmentation from Ultrasound Videos Across Multiple Source-limited Platforms]()
+[Efficient Breast Lesion Segmentation from Ultrasound Videos Across Multiple Source-limited Platforms]()
 
 Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Ziyu Ding, Hao Chen, Baoliang Zhao, Ying Hu, Zheng Zhang, Qiong Wang\*
 
