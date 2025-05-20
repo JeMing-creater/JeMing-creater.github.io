@@ -27,10 +27,10 @@ My research interests are primarily focused on medical image analysis and biomed
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/HWA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/HWA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🎉New!!!🎉[HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation]()
+🎉New!!!🎉[HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation](https://arxiv.org/abs/2505.10464)
 
 <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Lihuan Dai, Xiaoqi Sheng, Xiangguang Chen, Chun Yao, Guihua Tao, Qibin Leng, Hongmin Cai, Xi Zhong\*
 
@@ -44,7 +44,7 @@ My research interests are primarily focused on medical image analysis and biomed
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/MOD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation]()
+[Online Self-distillation and Self-modeling for 3D Brain Tumor Segmentation](https://ieeexplore.ieee.org/abstract/document/10843341/)
 
 Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Zhen Wang, Changyu Dong, Dongyang Kuang, Ying Hu, Hao Chen, Tim Lei, Qiong Wang\*
 
@@ -58,7 +58,7 @@ Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025</div><img src='images/BaS.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient Breast Lesion Segmentation from Ultrasound Videos Across Multiple Source-limited Platforms]()
+[Efficient Breast Lesion Segmentation from Ultrasound Videos Across Multiple Source-limited Platforms](https://ieeexplore.ieee.org/abstract/document/10892059/)
 
 Yan Pang, Yunhao Li, Teng Huang\*, <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Ziyu Ding, Hao Chen, Baoliang Zhao, Ying Hu, Zheng Zhang, Qiong Wang\*
 
