@@ -21,11 +21,29 @@ I am Jiaming Liang. I am a first-year Ph.D student under the supervision of <a h
 
 My research interests are primarily focused on medical image analysis and biomedical computing.
 
-
 # 🔥 News
+- *2025.08.25*: &nbsp;🎉🎉 A paper (Slim UNETRV2) has been accepted for <a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42'>IEEE Transactions on Medical Imaging</a>!
 - *2025.05.13*: &nbsp;🎉🎉 A paper (HWA-UNETR) has been provisionally accepted for <a href='https://conferences.miccai.org/2025/en/default.asp'>MICCAI 2025</a>!
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/SlimV2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+🎉New!!!🎉[Slim UNETRV2: 3D Image Segmentation for Resource-Limited Medical Portable Devices](https://ieeexplore.ieee.org/abstract/document/11138028)
+
+<a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Lihuan Dai, Xiaoqi Sheng, Xiangguang Chen, Chun Yao, Guihua Tao, Qibin Leng, Hongmin Cai, Xi Zhong\*
+
+Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Junming Yan, Ying Hu, Hao Chen, Qiong Wang\*
+
+
+[**Project**](https://github.com/deepang-ai/Slim-UNETRV2) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 9.8)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This work introduces a novel lightweight 3D segmentation neural network, Slim UNETR-V2, which for the first time incorporates a sparse Tri-SSM computational mechanism, making it well-suited for deployment on resource-constrained clinical devices.
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/HWA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -131,7 +149,7 @@ Teng Huang, Yile Hong, Yan Pang, <a href='https://jeming-creater.github.io/'><st
 
 Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Teng Huang\*, Hao Chen, Yunhao Li, Dan Li, Lin Huang, Qiong Wang\*
 
-[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 10.6)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/aigzhusmart/Slim-UNETR) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 9.8)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
 - SlimUNETR is a lightweight 3D medical image segmentation model that achieves state-of-the-art performance on the BraTS2021 and other 3D lesion segmentation datasets, while also seeing a significant reduction in the number of parameters and floating-point computations. 
 </div>
