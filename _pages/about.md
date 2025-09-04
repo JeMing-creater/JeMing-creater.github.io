@@ -32,10 +32,7 @@ My research interests are primarily focused on medical image analysis and biomed
 
 🎉New!!!🎉[Slim UNETRV2: 3D Image Segmentation for Resource-Limited Medical Portable Devices](https://ieeexplore.ieee.org/abstract/document/11138028)
 
-<a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Lihuan Dai, Xiaoqi Sheng, Xiangguang Chen, Chun Yao, Guihua Tao, Qibin Leng, Hongmin Cai, Xi Zhong\*
-
 Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Junming Yan, Ying Hu, Hao Chen, Qiong Wang\*
-
 
 [**Project**](https://github.com/deepang-ai/Slim-UNETRV2) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; [**Journal (JCR Q1, IF 9.8)**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp/?punumber=42)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
