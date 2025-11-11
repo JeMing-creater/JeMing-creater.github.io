@@ -22,10 +22,25 @@ I am Jiaming Liang. I am a first-year Ph.D student under the supervision of <a h
 My research interests are primarily focused on medical image analysis and biomedical computing.
 
 # 🔥 News
+- *2025.11.11*: &nbsp;🎉🎉 A paper (MM-UNet) has been accepted for <a href='https://biod.whu.edu.cn/bibm2025/'>IEEE International Conference on Bioinformatics and Biomedicine (BIBM)!</a>!
 - *2025.08.25*: &nbsp;🎉🎉 A paper (Slim UNETRV2) has been accepted for <a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42'>IEEE Transactions on Medical Imaging</a>!
-- *2025.05.13*: &nbsp;🎉🎉 A paper (HWA-UNETR) has been provisionally accepted for <a href='https://conferences.miccai.org/2025/en/default.asp'>MICCAI 2025</a>!
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM 2025</div><img src='images/MMUNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+🎉New!!!🎉[MM-UNet: Morph Mamba U-shaped Convolutional Networks for Retinal Vessel Segmentation](https://arxiv.org/abs/2511.02193)
+
+Jiawen Liu (Co-first author), Yuanbo Zeng (Co-first author), <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a> (Co-first author), Yizhen Yang, Yiheng Zhang, Enhui Cai, Xiaoqi Sheng, Hongmin Cai\*
+
+[**Project**](https://github.com/liujiawen-jpg/MM-UNet) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>&nbsp; &nbsp; 
+[**Conference paper (CCF-B)**](https://biod.whu.edu.cn/bibm2025/)<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+- This work proposes MM-UNet, a novel architecture tailored for efficient retinal vessel segmentation. The model incorporates Morph Mamba Convolution layers, which replace pointwise convolutions to enhance branching topological perception through morph, state-aware feature sampling. 
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/SlimV2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -45,7 +60,7 @@ Yan Pang (Adviser), <a href='https://jeming-creater.github.io/'><strong>Jiaming 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025</div><img src='images/HWA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🎉New!!!🎉[HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation](https://arxiv.org/abs/2505.10464)
+[HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation](https://arxiv.org/abs/2505.10464)
 
 <a href='https://jeming-creater.github.io/'><strong>Jiaming Liang</strong></a>, Lihuan Dai, Xiaoqi Sheng, Xiangguang Chen, Chun Yao, Guihua Tao, Qibin Leng, Hongmin Cai, Xi Zhong\*
 
