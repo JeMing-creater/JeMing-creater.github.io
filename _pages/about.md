@@ -31,7 +31,7 @@ My research interests are primarily focused on medical image analysis and biomed
 <style>
 .rep-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 18px;
   margin-top: 14px;
 }
@@ -39,10 +39,9 @@ My research interests are primarily focused on medical image analysis and biomed
 .rep-card {
   display: flex;
   align-items: stretch;
-  min-height: 160px;
-  text-decoration: none !important;
+  min-height: 170px;
   border: 1px solid #e5e7eb;
-  border-radius: 16px;
+  border-radius: 18px;
   overflow: hidden;
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -54,21 +53,116 @@ My research interests are primarily focused on medical image analysis and biomed
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
 }
 
-/* 左侧文字：30% */
+/* 左侧文本区：30% */
 .rep-content {
   flex: 3;
   min-width: 0;
-  padding: 16px 16px 16px 18px;
+  padding: 14px 12px 14px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-/* 右侧图片：70% */
-.rep-thumb {
+/* 文本内层：只允许纵向滚动 */
+.rep-textbox {
+  width: 100%;
+  height: 100%;
+  max-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-width: 0;
+}
+
+/* 小铭牌行 */
+.rep-badge-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 0 auto;
+  overflow: visible;
+  min-width: 0;
+}
+
+/* 铭牌：始终完整露出，必要时缩小 */
+.rep-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 50%;
+  min-width: 0;
+  box-sizing: border-box;
+  height: 20px;
+  padding: 0 0.5em;
+  border-radius: 999px;
+  font-size: clamp(0.5rem, 0.9vw, 0.68rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #4b5563;
+  text-decoration: none !important;
+  border: 1px solid #d6d9de;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.72) 0%, rgba(255,255,255,0.18) 35%, rgba(0,0,0,0.02) 100%),
+    #eceff3;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.85),
+    0 1px 2px rgba(0,0,0,0.05);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+}
+
+/* 标题链接 */
+.rep-title {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  text-decoration: none !important;
+  color: #111827;
+  line-height: 1.08;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/* 缩写：尽量不换行，自适应缩放 */
+.rep-title-main {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: clamp(0.95rem, 1.9vw, 1.28rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #111827;
+}
+
+/* 副标题：为缩写字号的一半 */
+.rep-title-sub {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.5em;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #374151;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+/* 右侧图片区：70% */
+.rep-thumb-link {
   flex: 7;
-  height: 160px;
+  height: 170px;
   background: #f8fafc;
   display: flex;
   align-items: center;
@@ -76,93 +170,109 @@ My research interests are primarily focused on medical image analysis and biomed
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
+  text-decoration: none !important;
 }
 
-.rep-thumb img {
+.rep-thumb-link img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   object-position: center;
   display: block;
-}
-
-/* 标题区域可滚动 */
-.rep-title {
-  width: 100%;
-  max-height: 126px;
-  overflow-y: auto;
-  color: #111827;
-  font-size: 0.98rem;
-  font-weight: 700;
-  line-height: 1.45;
-  word-break: break-word;
-  overflow-wrap: anywhere;
+  border: 0;
 }
 
 /* 手机端 */
 @media (max-width: 640px) {
   .rep-grid {
-    grid-template-columns: 1fr;
     gap: 14px;
   }
 
   .rep-card {
-    min-height: 130px;
+    min-height: 140px;
   }
 
   .rep-content {
     flex: 3;
-    padding: 12px 12px 12px 14px;
+    padding: 12px 10px 12px 12px;
   }
 
-  .rep-thumb {
+  .rep-textbox {
+    max-height: 114px;
+    gap: 8px;
+  }
+
+  .rep-badge {
+    max-width: 52%;
+    height: 18px;
+    padding: 0 0.42em;
+    font-size: clamp(0.46rem, 1.8vw, 0.6rem);
+  }
+
+  .rep-title-main {
+    font-size: clamp(0.84rem, 3vw, 1.02rem);
+  }
+
+  .rep-thumb-link {
     flex: 7;
-    height: 130px;
+    height: 140px;
     padding: 8px;
-  }
-
-  .rep-title {
-    font-size: 0.92rem;
-    max-height: 104px;
-    line-height: 1.4;
   }
 }
 </style>
 
 <div class="rep-grid">
 
-  <a class="rep-card" href="https://link.springer.com/chapter/10.1007/978-3-032-05141-7_27" target="_blank" rel="noopener noreferrer">
+  <div class="rep-card">
     <div class="rep-content">
-      <div class="rep-title">
-        Hwa-unetr: Hierarchical window aggregate unetr for 3d multimodal gastric lesion segmentation.
+      <div class="rep-textbox">
+        <div class="rep-badge-row">
+          <a class="rep-badge" href="https://conferences.miccai.org/2025/en/default.asp" target="_blank" rel="noopener noreferrer">MICCAI</a>
+        </div>
+        <a class="rep-title" href="https://link.springer.com/chapter/10.1007/978-3-032-05141-7_27" target="_blank" rel="noopener noreferrer">
+          <span class="rep-title-main">HWA-UNETR</span>
+          <span class="rep-title-sub">Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation</span>
+        </a>
       </div>
     </div>
-    <div class="rep-thumb">
-      <img src="images/HWA.png" alt="HWA-UNETR">
-    </div>
-  </a>
+    <a class="rep-thumb-link" href="https://link.springer.com/chapter/10.1007/978-3-032-05141-7_27" target="_blank" rel="noopener noreferrer">
+      <img src="/images/HWA.png" alt="HWA-UNETR">
+    </a>
+  </div>
 
-  <a class="rep-card" href="https://ieeexplore.ieee.org/abstract/document/11138028/" target="_blank" rel="noopener noreferrer">
+  <div class="rep-card">
     <div class="rep-content">
-      <div class="rep-title">
-        Slim unetrv2: 3d image segmentation for resource-limited medical portable devices.
+      <div class="rep-textbox">
+        <div class="rep-badge-row">
+          <a class="rep-badge" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42" target="_blank" rel="noopener noreferrer">TMI</a>
+        </div>
+        <a class="rep-title" href="https://ieeexplore.ieee.org/abstract/document/11138028/" target="_blank" rel="noopener noreferrer">
+          <span class="rep-title-main">SlimUNETRv2</span>
+          <span class="rep-title-sub">3D Image Segmentation for Resource-Limited Medical Portable Devices</span>
+        </a>
       </div>
     </div>
-    <div class="rep-thumb">
-      <img src="images/SlimV2.png" alt="Slim UNETRv2">
-    </div>
-  </a>
+    <a class="rep-thumb-link" href="https://ieeexplore.ieee.org/abstract/document/11138028/" target="_blank" rel="noopener noreferrer">
+      <img src="/images/SlimV2.png" alt="SlimUNETRv2">
+    </a>
+  </div>
 
-  <a class="rep-card" href="https://ieeexplore.ieee.org/abstract/document/11151753/" target="_blank" rel="noopener noreferrer">
+  <div class="rep-card">
     <div class="rep-content">
-      <div class="rep-title">
-        SegTom: a 3D volumetric medical image segmentation framework for thoracoabdominal multi-organ anatomical structures.
+      <div class="rep-textbox">
+        <div class="rep-badge-row">
+          <a class="rep-badge" href="https://www.embs.org/jbhi/" target="_blank" rel="noopener noreferrer">JBHI</a>
+        </div>
+        <a class="rep-title" href="https://ieeexplore.ieee.org/abstract/document/11151753/" target="_blank" rel="noopener noreferrer">
+          <span class="rep-title-main">SegTom</span>
+          <span class="rep-title-sub">A 3D Volumetric Medical Image Segmentation Framework for Thoracoabdominal Multi-Organ Anatomical Structures</span>
+        </a>
       </div>
     </div>
-    <div class="rep-thumb">
-      <img src="images/SegTom.png" alt="SegTom">
-    </div>
-  </a>
+    <a class="rep-thumb-link" href="https://ieeexplore.ieee.org/abstract/document/11151753/" target="_blank" rel="noopener noreferrer">
+      <img src="/images/SegTom.png" alt="SegTom">
+    </a>
+  </div>
 
 </div>
 
