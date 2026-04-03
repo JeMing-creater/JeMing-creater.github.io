@@ -30,13 +30,17 @@ My research interests are primarily focused on medical image analysis and biomed
 # 💫 Representative
 <style>
 .rep-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  display: flex;
+  flex-wrap: nowrap;
   gap: 20px;
   margin-top: 14px;
+  width: 100%;
 }
 
+/* 宽屏：三张同排，自动压缩到一行 */
 .rep-card {
+  flex: 1 1 0;
+  min-width: 0;
   display: flex;
   align-items: stretch;
   min-height: 220px;
@@ -90,7 +94,7 @@ My research interests are primarily focused on medical image analysis and biomed
   min-width: 0;
 }
 
-/* 铭牌：始终完整露出，必要时缩小 */
+/* 铭牌 */
 .rep-badge {
   display: inline-flex;
   align-items: center;
@@ -102,7 +106,7 @@ My research interests are primarily focused on medical image analysis and biomed
   height: 22px;
   padding: 0 0.55em;
   border-radius: 999px;
-  font-size: clamp(0.52rem, 0.75vw, 0.72rem);
+  font-size: clamp(0.5rem, 0.7vw, 0.72rem);
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0;
@@ -141,7 +145,7 @@ My research interests are primarily focused on medical image analysis and biomed
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: clamp(1.05rem, 1.5vw, 1.9rem);
+  font-size: clamp(1rem, 1.2vw, 1.7rem);
   font-weight: 800;
   letter-spacing: -0.01em;
   color: #111827;
@@ -184,65 +188,40 @@ My research interests are primarily focused on medical image analysis and biomed
   border: 0;
 }
 
-/* 超宽屏：允许两列更舒展 */
-@media (min-width: 1400px) {
+/* 当页面不够同时容纳三张时，直接切换为单列 */
+/* 这个阈值你可以按实际页面宽度微调，先给你一个稳妥值 */
+@media (max-width: 1500px) {
   .rep-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* 中等屏幕：仍然可双列，但卡片稍矮一点 */
-@media (max-width: 1200px) {
-  .rep-grid {
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    flex-direction: column;
+    gap: 16px;
   }
 
   .rep-card {
+    width: 100%;
     min-height: 200px;
   }
 
   .rep-thumb-link {
     height: 200px;
-  }
-
-  .rep-textbox {
-    max-height: 164px;
-  }
-}
-
-/* 平板：收成单列，避免挤压 */
-@media (max-width: 900px) {
-  .rep-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .rep-card {
-    min-height: 180px;
-  }
-
-  .rep-thumb-link {
-    height: 180px;
     padding: 10px;
   }
 
   .rep-textbox {
-    max-height: 148px;
+    max-height: 164px;
     gap: 10px;
   }
 
   .rep-title-main {
-    font-size: clamp(0.98rem, 2.8vw, 1.35rem);
+    font-size: clamp(0.98rem, 2.2vw, 1.35rem);
+  }
+
+  .rep-badge {
+    font-size: clamp(0.5rem, 1.1vw, 0.68rem);
   }
 }
 
 /* 手机端 */
 @media (max-width: 640px) {
-  .rep-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
   .rep-card {
     min-height: 140px;
   }
