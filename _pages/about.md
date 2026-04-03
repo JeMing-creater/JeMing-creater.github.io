@@ -31,15 +31,15 @@ My research interests are primarily focused on medical image analysis and biomed
 <style>
 .rep-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 20px;
   margin-top: 14px;
 }
 
 .rep-card {
   display: flex;
   align-items: stretch;
-  min-height: 170px;
+  min-height: 220px;
   border: 1px solid #e5e7eb;
   border-radius: 18px;
   overflow: hidden;
@@ -57,22 +57,23 @@ My research interests are primarily focused on medical image analysis and biomed
 .rep-content {
   flex: 3;
   min-width: 0;
-  padding: 14px 12px 14px 16px;
+  padding: 16px 14px 16px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background: #ffffff;
 }
 
 /* 文本内层：只允许纵向滚动 */
 .rep-textbox {
   width: 100%;
   height: 100%;
-  max-height: 140px;
+  max-height: 180px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 12px;
   overflow-y: auto;
   overflow-x: hidden;
   min-width: 0;
@@ -98,10 +99,10 @@ My research interests are primarily focused on medical image analysis and biomed
   max-width: 50%;
   min-width: 0;
   box-sizing: border-box;
-  height: 20px;
-  padding: 0 0.5em;
+  height: 22px;
+  padding: 0 0.55em;
   border-radius: 999px;
-  font-size: clamp(0.5rem, 0.9vw, 0.68rem);
+  font-size: clamp(0.52rem, 0.75vw, 0.72rem);
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0;
@@ -140,7 +141,7 @@ My research interests are primarily focused on medical image analysis and biomed
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: clamp(0.95rem, 1.9vw, 1.28rem);
+  font-size: clamp(1.05rem, 1.5vw, 1.9rem);
   font-weight: 800;
   letter-spacing: -0.01em;
   color: #111827;
@@ -149,10 +150,10 @@ My research interests are primarily focused on medical image analysis and biomed
 /* 副标题：为缩写字号的一半 */
 .rep-title-sub {
   display: block;
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 0.5em;
   font-weight: 700;
-  line-height: 1.35;
+  line-height: 1.4;
   color: #374151;
   word-break: break-word;
   overflow-wrap: anywhere;
@@ -162,13 +163,14 @@ My research interests are primarily focused on medical image analysis and biomed
 /* 右侧图片区：70% */
 .rep-thumb-link {
   flex: 7;
-  height: 170px;
+  min-width: 0;
+  height: 220px;
   background: #f8fafc;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 10px;
+  padding: 12px;
   box-sizing: border-box;
   text-decoration: none !important;
 }
@@ -182,9 +184,62 @@ My research interests are primarily focused on medical image analysis and biomed
   border: 0;
 }
 
+/* 超宽屏：允许两列更舒展 */
+@media (min-width: 1400px) {
+  .rep-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* 中等屏幕：仍然可双列，但卡片稍矮一点 */
+@media (max-width: 1200px) {
+  .rep-grid {
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  }
+
+  .rep-card {
+    min-height: 200px;
+  }
+
+  .rep-thumb-link {
+    height: 200px;
+  }
+
+  .rep-textbox {
+    max-height: 164px;
+  }
+}
+
+/* 平板：收成单列，避免挤压 */
+@media (max-width: 900px) {
+  .rep-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .rep-card {
+    min-height: 180px;
+  }
+
+  .rep-thumb-link {
+    height: 180px;
+    padding: 10px;
+  }
+
+  .rep-textbox {
+    max-height: 148px;
+    gap: 10px;
+  }
+
+  .rep-title-main {
+    font-size: clamp(0.98rem, 2.8vw, 1.35rem);
+  }
+}
+
 /* 手机端 */
 @media (max-width: 640px) {
   .rep-grid {
+    grid-template-columns: 1fr;
     gap: 14px;
   }
 
@@ -277,35 +332,35 @@ My research interests are primarily focused on medical image analysis and biomed
 </div>
 
 # 📝 Publications (by date)
-- Liming Liang, Ting Kang, Yulin Li, **Jiaming Liang**, et al. "<font color= #699ce4>Waveformer: Dual-Branch Adaptive Network with Wavelet-Guided Cross-Context Decoding for Colorectal Polyp Segmentation.</font>" *IEEE journal of biomedical and health informatics*.
+- Liming Liang, Ting Kang, Yulin Li, **Jiaming Liang**, et al. "<a href='https://pubmed.ncbi.nlm.nih.gov/41894215/'>Waveformer: Dual-Branch Adaptive Network with Wavelet-Guided Cross-Context Decoding for Colorectal Polyp Segmentation</a>." *IEEE journal of biomedical and health informatics*.
 
-- Jiawen Liu, **Jiaming Liang (co-author)**, et al. "<font color= #699ce4>MM-UNet: Morph Mamba U-shaped Convolutional Networks for Retinal Vessel Segmentation.</font>" *IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*.
+- Jiawen Liu, **Jiaming Liang (co-author)**, et al. "<a href='https://arxiv.org/abs/2511.02193'>MM-UNet: Morph Mamba U-shaped Convolutional Networks for Retinal Vessel Segmentation.</a>" *IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*.
 
-- **Jiaming Liang**, et al. "<font color= #699ce4>Hwa-unetr: Hierarchical window aggregate unetr for 3d multimodal gastric lesion segmentation.</font>" *International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 2025*.
+- **Jiaming Liang**, et al. "<a href='https://link.springer.com/chapter/10.1007/978-3-032-05141-7_27'>Hwa-unetr: Hierarchical window aggregate unetr for 3d multimodal gastric lesion segmentation.</a>" *International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 2025*.
 
-- Yan Pang (Adviser), **Jiaming Liang**, et al. "<font color= #699ce4>Slim unetrv2: 3d image segmentation for resource-limited medical portable devices.</font>" *IEEE Transactions on Medical Imaging (2025)*.
+- Yan Pang (Adviser), **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/11138028/'>Slim unetrv2: 3d image segmentation for resource-limited medical portable devices.</a>" *IEEE Transactions on Medical Imaging (2025)*.
 
-- Yan Pang, Yunhao Li, **Jiaming Liang**, et al. "<font color= #699ce4>SegTom: a 3D volumetric medical image segmentation framework for thoracoabdominal multi-organ anatomical structures.</font>" *IEEE Journal of Biomedical and Health Informatics (2025)*.
+- Yan Pang, Yunhao Li, **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/11151753/'>SegTom: a 3D volumetric medical image segmentation framework for thoracoabdominal multi-organ anatomical structures.</a>" *IEEE Journal of Biomedical and Health Informatics (2025)*.
 
-- Yan Pang, Yunhao Li, Teng Huang, **Jiaming Liang**, et al. "<font color= #699ce4>Efficient breast lesion segmentation from ultrasound videos across multiple source-limited platforms.</font>" *IEEE Journal of Biomedical and Health Informatics (2025)*.
+- Yan Pang, Yunhao Li, Teng Huang, **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10892059'>Efficient breast lesion segmentation from ultrasound videos across multiple source-limited platforms.</a>" *IEEE Journal of Biomedical and Health Informatics (2025)*.
 
-- Yan Pang, Yunhao Li, Teng Huang, **Jiaming Liang**, et al. "<font color= #699ce4>Online self-distillation and self-modeling for 3D brain tumor segmentation.</font>" *IEEE Journal of Biomedical and Health Informatics 29.12 (2025): 8965-8975*.
+- Yan Pang, Yunhao Li, Teng Huang, **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10843341'>Online self-distillation and self-modeling for 3D brain tumor segmentation.</a>" *IEEE Journal of Biomedical and Health Informatics 29.12 (2025): 8965-8975*.
 
-- **Jiaming Liang**, et al. "<font color= #699ce4>Comprehensive transformer integration network (ctin): Advancing endoscopic disease segmentation with hybrid transformer architecture.</font>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2024**.
+- **Jiaming Liang**, et al. "<a href='https://link.springer.com/chapter/10.1007/978-981-97-8499-8_15'>Comprehensive transformer integration network (ctin): Advancing endoscopic disease segmentation with hybrid transformer architecture.</a>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2024**.
 
-- Teng Huang, Yile Hong, Yan Pang, **Jiaming Liang**, et al. "<font color= #699ce4>AdaptFormer: An adaptive hierarchical semantic approach for change detection on remote sensing images.</font>" IEEE Transactions on Instrumentation and Measurement 73 (2024): 1-12*.
+- Teng Huang, Yile Hong, Yan Pang, **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10497147/'>AdaptFormer: An adaptive hierarchical semantic approach for change detection on remote sensing images.</a>" IEEE Transactions on Instrumentation and Measurement 73 (2024): 1-12*.
 
-- Yan Pang (Adviser), **Jiaming Liang**, et al. "<font color= #699ce4>Slim UNETR: Scale hybrid transformers to efficient 3D medical image segmentation under limited computational resources.</font>" *IEEE transactions on medical imaging 43.3 (2023): 994-1005*.
+- Yan Pang (Adviser), **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10288609'>Slim UNETR: Scale hybrid transformers to efficient 3D medical image segmentation under limited computational resources.</a>" *IEEE transactions on medical imaging 43.3 (2023): 994-1005*.
 
-- **Jiaming Liang**, et al. "<font color= #699ce4>GanNoise: Defending against black-box membership inference attacks by countering noise generation.</font>" *2023 International Conference on Data Security and Privacy Protection (DSPP). IEEE, 2023*.
+- **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10405019'>GanNoise: Defending against black-box membership inference attacks by countering noise generation.</a>" *2023 International Conference on Data Security and Privacy Protection (DSPP). IEEE, 2023*.
 
-- Bo Wei, Teng Huang, Xi Zhang, **Jiaming Liang**, et al. "<font color= #699ce4>CAM-PC: A novel method for camouflaging point clouds to counter adversarial deception in remote sensing.</font>" *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 17 (2023): 56-67*.
+- Bo Wei, Teng Huang, Xi Zhang, **Jiaming Liang**, et al. "<a href='https://ieeexplore.ieee.org/abstract/document/10285331/'>CAM-PC: A novel method for camouflaging point clouds to counter adversarial deception in remote sensing.</a>" *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 17 (2023): 56-67*.
 
--  **Jiaming Liang**, et al. "<font color= #699ce4>Agilenet: A rapid and efficient breast lesion segmentation method for medical image analysis.</font>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2023*.
+-  **Jiaming Liang**, et al. "<a href='https://link.springer.com/chapter/10.1007/978-981-99-8469-5_33'>Agilenet: A rapid and efficient breast lesion segmentation method for medical image analysis.</a>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2023*.
 
-- Teng Huang, Weiqing Kong, **Jiaming Liang**, et al. "<font color= #699ce4>Lightweight Multispectral Skeleton and Multi-stream Graph Attention Networks for Enhanced Action Prediction with Multiple Modalities.</font>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2023*.
+- Teng Huang, Weiqing Kong, **Jiaming Liang**, et al. "<a href='https://link.springer.com/chapter/10.1007/978-981-99-8429-9_6'>Lightweight Multispectral Skeleton and Multi-stream Graph Attention Networks for Enhanced Action Prediction with Multiple Modalities.</a>" *Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2023*.
 
-- Hongyang Yan, Anli Yan, Li Hu, **Jiaming Liang**, Haibo Hu. "<font color= #699ce4>MTL-leak: Privacy risk assessment in multi-task learning.</font>" *IEEE Transactions on Dependable and Secure Computing 21.1 (2023): 204-215*.
+- Hongyang Yan, Anli Yan, Li Hu, **Jiaming Liang**, Haibo Hu. "<a href='https://ieeexplore.ieee.org/abstract/document/10050399/'>MTL-leak: Privacy risk assessment in multi-task learning.</a>" *IEEE Transactions on Dependable and Secure Computing 21.1 (2023): 204-215*.
 
 
 
